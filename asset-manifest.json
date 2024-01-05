@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/musicleapp/static/css/main.571d0c9e.css",
-    "main.js": "/musicleapp/static/js/main.5d38ada6.js",
+    "main.js": "/musicleapp/static/js/main.0c0bbc9d.js",
     "index.html": "/musicleapp/index.html",
     "main.571d0c9e.css.map": "/musicleapp/static/css/main.571d0c9e.css.map",
-    "main.5d38ada6.js.map": "/musicleapp/static/js/main.5d38ada6.js.map"
+    "main.0c0bbc9d.js.map": "/musicleapp/static/js/main.0c0bbc9d.js.map"
   },
   "entrypoints": [
     "static/css/main.571d0c9e.css",
-    "static/js/main.5d38ada6.js"
+    "static/js/main.0c0bbc9d.js"
   ]
 }
