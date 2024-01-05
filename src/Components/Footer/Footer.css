@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.Footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+.Footer h1 {
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 10px;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 2%;
+    margin-bottom: 0;
+}
+
+.Footer a {
+    color: #ADD3AE;
+    text-decoration: none;
+}
+
+/*MEDIA QUERIES*/
+/* Desktops and laptops ----------- */
+@media screen and (max-width: 1024px) {
+    .Footer {
+        position: relative;
+        margin-top: 10%;
+     }
+}
+@media screen and (max-width: 600px) {
+    .Footer {
+        position: relative;
+        margin-top: 20%;
+     }
+  }

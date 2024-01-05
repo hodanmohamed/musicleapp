@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+h1 {
+  background: none;
+  color: #5A5859;
+  margin-bottom: 2%;
+  padding-top: 2%;
+  font-size: 53px;
+  font-family: 'DM Serif Text', serif;
+}
+
+.SearchButton {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  width: 20rem;
+  height: 50px;
+  line-height: 0px;
+  background-color: #5B6467;
+  color: #C1DCB6;
+  grid-template-columns: repeat();
+  text-align: center;
+}
+
+.SearchButton span,
+.SearchButton .icon {
+  position: absolute;
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+
+.SearchButton span {
+  width: 72%;
+  left: 0px;
+  line-height: inherit;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.SearchButton .icon {
+  right: 0;
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 200px;
+  background-color: #5C7077;
+  top: 0;
+}
+
+.SearchButton:hover span {
+  left: -72%;
+}
+
+.SearchButton:hover .icon {
+  width: 100%;
+}
+
+.SearchButton:hover .icon .fa {
+  font-size: 45px;
+}
+
+.SearchButton span,
+.SearchButton div,
+.SearchButton i {
+  transition: width 750ms ease-in 200ms, left 500ms ease-out 450ms;
+}
+
+/*MEDIA QUERIES*/
+/* Desktops and laptops ----------- */
+@media screen and (max-width: 1024px) {
+  h1 {
+    margin-bottom: 8%;
+    padding-top: 8%;
+    font-size: 4rem;
+  }
+
+  .SearchButton {
+    width: 20rem;
+    height: 50px;
+  }
+}
+
+/* Mobile devices ----------- */
+@media screen and (max-width: 600px) {
+  h1 {
+    margin-bottom: 8%;
+    padding-top: 8%;
+    font-size: 3rem;
+  }
+
+  .SearchButton {
+    width: 14rem;
+    height: 50px;
+    margin-bottom: 5rem;
+  }
+}

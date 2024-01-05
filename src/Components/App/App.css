@@ -1,0 +1,90 @@
+body,
+html,
+#root {
+  height: 100;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: .77rem 0;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #000;
+}
+
+h1 .highlight {
+  color: #F44336;
+  font-style: italic;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  height: 100vh;
+  background: linear-gradient(#E7EEC6, #ADD3AE, #5CACA8, #5D7A82, #595151);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.App-playlist {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding-top: 3.5%;
+  gap: 3rem;
+}
+
+/* Mobile devices ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .App-playlist {
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .App {
+    height: 100%;
+  }
+}
+
+/* Tablets or iPads ----------- */
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+  .App-playlist {
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .App {
+    height: 100%;
+  }
+}
+
+/* Laptops or small-size screens ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* Styles */
+  .App-playlist {
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .App {
+    height: 100%;
+  }
+}
