@@ -1,7 +1,7 @@
 let accessToken;
 
 const clientId = '81e123b5aa86452abf783c9f9a7399ef';
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'http://hodanmohamed.github.io/musicleapp';
 
 const Spotify = {
     getAccessToken() {
